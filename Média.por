@@ -1,17 +1,29 @@
+//Entrar com N números até que seja digitado um número diferente 0. 
+//Apresente a quantidade de números digitados e a media deles
+
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro numero = 0, contador = 0, media = 0
+		inteiro numero = 1, contador = 0, soma = 0
 		
 		enquanto(numero != 0){
 			escreva("Escreva seus número e digite 0 se quiser finalizar: ")
 			leia(numero)
-			contador = media + numero
-			numero++
+			soma = soma + numero
+
+			se(numero <= 0){
+				soma = soma + numero
+			}
+			contador ++
 		}
-		escreva("Resultado da média: ", contador)
+
+		se(contador > 0){
+			escreva("Valor total da média: ", soma / contador)
+			escreva("Valor total de números digitados: ", contador)
+		}
+	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 283; 
+ * @POSICAO-CURSOR = 534; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
