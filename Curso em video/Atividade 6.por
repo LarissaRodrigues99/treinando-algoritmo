@@ -1,23 +1,16 @@
-//5) Faça um programa que leia as duas notas de um aluno em uma matéria e mostre 
-//na tela a sua média na disciplina. 
+//6) Faça um programa que leia um número inteiro e mostre o seu antecessor e seu 
+//sucessor. 
 //Ex:  
-//Nota 1: 4.5 
-//Nota 2: 8.5 
-//A média entre 4.5 e 8.5 é igual a 6.5 
+//Digite um número: 9 
+//O antecessor de 9 é 8 
+//O sucessor de 9 é 10 
 
 programa
 {
 	
 	funcao inicio()
 	{
-		real nota1, nota2, media
 		
-		escreva("Digite sua nota: ")
-		leia(nota1)
-		escreva("Digite sua segunda nota: ")
-		leia(nota2)
-		media = (nota1 + nota2) / 2
-		escreva("Sua média final: ", media)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 372; 
+ * @POSICAO-CURSOR = 211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
