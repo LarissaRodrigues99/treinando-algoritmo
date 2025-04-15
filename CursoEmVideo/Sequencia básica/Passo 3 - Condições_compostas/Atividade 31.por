@@ -39,7 +39,7 @@ programa
 				se(jogador2 == 3){
 					escreva(" Você perdeu! Tesoura corta papel.\n")
 				}senao{
-					escreva(" Você ganhou! Papel coble pedra.\n")
+					escreva(" Empatou!.\n")
 				}
 				pare
 			caso 3:
@@ -59,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1127; 
+ * @POSICAO-CURSOR = 912; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
