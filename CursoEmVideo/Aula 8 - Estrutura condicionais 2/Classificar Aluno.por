@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		real nota1, nota2, Media, A = 1000, B = 890, C = 790, D = 690, E = 590, F = 500
+		real nota1, nota2, Media, A = 1000.0, B = 890.0, C = 790.0, D = 690.0, E = 590.0, F = 500.0
 		 
 		escreva("Informe a nota: ")
 		leia(nota1)
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 809; 
+ * @POSICAO-CURSOR = 126; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
